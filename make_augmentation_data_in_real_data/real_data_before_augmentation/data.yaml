@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['cutter', 'lighter', 'portable_charger', 'scissors', 'spray', 'toothpaste', 'water']
+
+roboflow:
+  workspace: vision-wajsm
+  project: real_image
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vision-wajsm/real_image/dataset/6
